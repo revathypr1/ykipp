@@ -1,0 +1,288 @@
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  .uppercase {
+    text-transform: uppercase;
+    font-size: 59px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  input::-webkit-inner-spin-button,
+  input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="text"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 3%;
+    height: 43px;
+  }
+  input[type="button"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote {
+    quotes: none;
+  }
+  blockquote:after,
+  blockquote:before {
+    content: "";
+    content: none;
+  }
+  del {
+    text-decoration: line-through;
+  }
+  address,
+  article,
+  aside,
+  footer,
+  header,
+  nav,
+  section {
+    display: block;
+  }
+  body {
+    font-family: gordita_regular;
+    font-size: 17px;
+    color: #545454;
+    overflow-x: hidden;
+    min-width: 320px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  input,
+  select,
+  textarea {
+    font-family: gordita_regular;
+  }
+  html {
+    overflow: scroll;
+    scroll-behavior: smooth !important;
+  }
+  .areas::-webkit-input-placeholder {
+    color: #9b9a9a;
+  }
+  html.modal-enabled {
+    overflow: hidden !important;
+  }
+  a {
+    color: #545454;
+    text-decoration: none;
+  }
+  .submit:hover,
+  a:hover {
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+  }
+  .thumb {
+    display: block;
+  }
+  .thumb img {
+    display: block;
+    width: 100%;
+  }
+  p {
+    line-height: 1.6em;
+    font-size: 16px;
+    color: #545454;
+    font-family: gordita_regular !important;
+  }
+  .hidden {
+    display: none;
+  }
+  br.clear {
+    clear: both;
+    line-height: 0;
+  }
+  .bold {
+    font-family: gordita_bold;
+  }
+  .e-t-h {
+    margin-bottom: 25px;
+  }
+  .e-t-h2 {
+    font-size: 37px;
+    color: #444;
+    font-family: gordita_bold;
+    letter-spacing: 0.02rem;
+  }
+  .wrapper {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1325px;
+  }
+  .g-regular {
+    font-family: gordita_regular;
+  }
+  .g-medium {
+    font-family: gordita_medium;
+  }
+  .g-semi {
+    font-family: gordita_bold;
+  }
+  .white {
+    color: #fff;
+  }
+  .black {
+    color: #000;
+  }
+  a,
+  h1,
+  h2,
+  input {
+    font-family: gordita_regular;
+    color: #000;
+  }
+  input::-webkit-input-placeholder {
+    color: #AAAAAA;
+  }
+  input:-moz-placeholder {
+    color: #AAAAAA;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(../images/langing/datepicker.png) no-repeat;
+    width: 23px;
+    height: 23px;
+    border-width: thin;
+  }
+  @font-face {
+    font-display: auto;
+    font-family: gordita_regular;
+    src: url(../fonts/gordita/GorditaRegular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-display: auto;
+    font-family: gordita_medium;
+    src: url(../fonts/gordita//GorditaMedium.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: gordita_bold;
+    src: url(../fonts/gordita/GorditaBold.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #landing-page .slick-prev:before,
+  .slick-next:before {
+    display: none !important;
+  }
+  #landing-page .slick-dots li button:before {
+    color: #3fbd7f !important;
+    font-size: 10px !important;
+  }
+  
+  #landing-page .slick-dots li button {
+    color: #3fbd7f !important;
+  }
+  #landing-page .slick-dots li.slick-active button:before { /* @media all and (max-width:640px){
+      
+    width:90%;
+} */
+    color: #3fbd7f !important;
+    display: none !important;
+  }
+  #landing-page .slick-dots li.slick-active button {
+    width: 15px;
+    height: 3px !important;
+    background-color: #3fbd7f;
+    border-radius: 8px;
+    transform: translateY(4px) !important;
+  }
+  #challenges .slick-track {
+    display: flex !important;
+  }
+  #challenges .slick-slide {
+    height: inherit;
+    display: flex !important;
+  }
+  #challenges .slick-slide > div {
+    display: flex !important;
+  }
+  
+  /* #testimonials .slick-track {
+      display: flex !important;
+  }
+  #testimonials .slick-slide {
+      height: inherit;
+      display: flex !important;
+  }
+  #testimonials .slick-slide > div {
+      display: flex !important;
+  } */
+  .web .slick-prev:before,
+  .slick-next:before {
+    display: none !important;
+  }
+  .web .slick-dots li button:before {
+    color: #3fbd7f !important;
+    font-size: 10px !important;
+  }
+  
+  .web .slick-dots li button {
+    color: #3fbd7f !important;
+  }
+  .web .slick-dots li.slick-active button:before {
+    color: #3fbd7f !important;
+    display: none !important;
+  }
+  .web .slick-dots li.slick-active button {
+    width: 15px;
+    height: 3px !important;
+    background-color: #3fbd7f;
+    border-radius: 8px;
+    transform: translateY(4px) !important;
+  }
+  /* #testimonials .slick-slider .slick-track,
+  #testimonials .slick-slider .slick-list {
+      overflow: visible !important;
+  } */
+  /* .slick-slider .slick-track,
+  .slick-slider .slick-list {
+      overflow: hidden !important;
+  } */
+  
+  @media (min-width: 980px) {
+    body.flow-enabled {
+      overflow-x: unset;
+    }
+  }
